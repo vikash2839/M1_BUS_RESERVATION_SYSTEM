@@ -1,7 +1,7 @@
   * Table
   
 
-  |  Sr No.   |           Title              |     Page No.       |
+  |  Sr No.   |           Title              | Page No.       |    
   |:---------:|:----------------------------:|:------------------:|
   | 1 |   Introduction  | 1 |
   | 2 | Requirements | 2 |
