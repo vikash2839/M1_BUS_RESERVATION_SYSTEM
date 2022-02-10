@@ -43,19 +43,19 @@ int main()
     switch(num)
     {
     case 1:
-        bus();
+        bus();//for list of bus
         break;
     case 2:
-        booking();
+        booking();//for booking the tickets
         break;
     case 3:
-        cancel();
+        cancel();//for cancel the tickets
         break;
     case 4:
-        status();
+        status();//for status of the tickets
         break;
     case 5:
-        helpline();
+        helpline();//for helpline
         break;    
     }
 getch();

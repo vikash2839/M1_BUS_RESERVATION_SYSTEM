@@ -10,13 +10,13 @@ char name[32][100]={'\0'};
 char number[32][2]={'\0'};
 int num1[32]={0};
 int txt;
-void bus();
+void bus();//for list of bus
 void name_number(int booking,char numstr[100]);
-void booking();
-int read_number(int txt);
-void read_name(int txt);
-void status();
-void status_1(int txt);
+void booking();//for booking the tickets
+int read_number(int txt);//for reading the number from the file
+void read_name(int txt);//for reading the name from the file
+void status();//for printing the status by user input
+void status_1(int txt);//for printing the status while booking ticket
 void cancel();
 void helpline();
 
@@ -62,7 +62,7 @@ void booking()
 system("cls");
 printf("******************************************************************************************************************\n\n");
 printf("                                                    BUS RESERVATION SYSTEM                                       \n\n\n");
-bus();
+bus();//for seeing bus list
 printf("Enter the Bus number:--->");
 scanf("%d",&txt);
 system("cls");
@@ -70,7 +70,7 @@ printf("************************************************************************
 printf("                                                    BUS RESERVATION SYSTEM                                        \n\n\n");
 printf("Your Bus Number is %d ********** %s",txt,ch[txt-1]);
 status_1(txt);
- FILE *f1, *fopen();
+ FILE *f1, *fopen();//for reading the seats from the user.
  char str1[80]="32",str2[4],str3[4];
  int seat1,seat2,booking=0;
 if(txt == 1)
@@ -101,7 +101,7 @@ else if(txt == 5)
  fgets(str1,80,f1);
  fclose(f1);
 }
-seat1=atoi(str1);
+seat1=atoi(str1);//covert the string into number
 if(seat1 <= 0)
 {
  printf("There is no blank seat in this bus ");
@@ -118,6 +118,7 @@ itoa(txt,numstr,10);
 name_number(booking,numstr);
 printf("\n\t\t\t\tThe Total booking amount is %d",200*booking);
 itoa(seat1, str1, 10);
+//for reading the seats from the user.
 
 if(txt == 1)
 {
@@ -163,9 +164,9 @@ int number;
    strcat(numstr,".txt");
    strcat(tempstr1,numstr);
    strcat(tempstr2,numstr);
-   a = fopen(tempstr1,"a");
+   a = fopen(tempstr1,"a");//for open the file to write the name in the file
    b = fopen(tempstr2,"a");
-for(i=0; i<booking; i++)
+for(i=0; i<booking; i++)//for entering the person name and seat number in the file
 {
     printf("*******************************************************************************************************************\n\n");
 	printf("                                       Enter the details for ticket no %d                                  \n\n\n",i+1);
@@ -186,7 +187,7 @@ fclose(b);
 
 
 
-int read_number(int txt)
+int read_number(int txt)//for putting the numeric value in the array
 {
 char tempstr[100],tempstr2[12]="number";
 FILE *a,*b;
@@ -195,7 +196,7 @@ int m=0,n=0,k;
 itoa(txt,numstr,10);
 strcat(numstr,".txt");
 strcat(tempstr2,numstr);
-a = fopen(tempstr2,"a+");
+a = fopen(tempstr2,"a+");//for open the file to write the name in the file
    while(!feof(a))
    {
       number[m][n] = fgetc(a);
@@ -221,7 +222,7 @@ a = fopen(tempstr2,"a+");
 }
 
 
-void read_name(int txt)
+void read_name(int txt)//for open the file to write the name in the file
 {
 char tempstr1[12]="status";
 FILE *b;
@@ -390,7 +391,7 @@ void login()
 	printf("  \n\n\n       WELCOME TO OUR SYSTEM !!!!       \n\n");
 	printf("\n\n             LOGIN IS SUCCESSFUL !!!!       \n\n");
 	printf("\n\n\n\t\t\t\t     Press any key to continue...");
-	getch();
+	getch();// it holds the screen
 	break;
 	printf("*******************************************************************************************************************\n\n");
 	}
@@ -399,7 +400,7 @@ void login()
 		printf("\n        SORRY !!!!  LOGIN IS UNSUCESSFUL");
 		a++;
 		
-		getch();
+		getch();//it holds the screen
 		
 	}
 }
