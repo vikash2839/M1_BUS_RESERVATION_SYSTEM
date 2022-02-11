@@ -1,12 +1,11 @@
+#TargetName : Dependencies
+#<TAB>commands
 
-output: main.o reservation.o 
-   gcc main.o reservation.o -o output
+Build : reservation.c
+	gcc reservation.c -o reservation.out
 
-main.o: main.c
-       gcc-main.c
+Run : reservation.out
+	./reservation.out
 
-reservation.o: reservation.c reservation.h
-        gcc -c reservation.c
-
-clean:
-    rm *.o output
+Clean:
+	rm -rf *.o *.out *.i *.s
