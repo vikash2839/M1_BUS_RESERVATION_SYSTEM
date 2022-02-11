@@ -59,7 +59,9 @@ int main()
         break;    
     }
 getch();
-    }while(num != 6);
+
+    }
+    while(num != 6);
     system("CLS");
     printf("\t*****************************************************************************************************************\n\n\n");
     printf("\t\t\t\t\t                           Thank You For Using                   \t\t\t\t\t\t\n");

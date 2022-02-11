@@ -8,4 +8,4 @@ Run : reservation.out
 	./reservation.out
 
 Clean:
-	rm -rf *.o *.out *.i *.s
+	rm -rf *.o *.out *.i *.sm
