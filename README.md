@@ -6,8 +6,7 @@
 * workflow
 * Folder structure
 * Aim
-* 
-*
+* Scope
 
 
 # Introduction
@@ -43,3 +42,26 @@ https://app.codiga.io/public/project/30938/M1_BUS_RESERVATION_SYSTEM/dashboard
 | 0_Certificates | 1_Requirements | 2_Design | 3_Implementation | 4_TestplanAndOutput | 5_Report | 6_Images_and_output | 7_Others |
 |:--------------:|:--------------:|:--------:|:----------------:|:-------------------:|:--------:|:-------------------:|:--------:|
 | Certification details of student | Requirement and research detailing | design model of project | All codes and make of project | Requirements and test plan | Project report | Screenshots of project | Refrences details |   
+
+
+## Aim
+
+* Easy and convience for people to book their bus ticket.
+
+* It manages all the information about bus ,seats, customer.
+
+* This application will reduce manual workfor managing bus, tickets and etc.
+
+* Track all the information of Tickets, customer ,agents,etc.
+
+## Scope
+
+It may help collecting perfect management in details. It will be also reduced the cost of collecting the management & collection procedure will go  smoothly.
+
+This project aims at Buisness process automation , i.e. i tried to computerize various processes of Bus Reservstion System. 
+
+* It satisfy user requirements.
+
+* It is easy to operate.
+
+* Have a good user interface.
