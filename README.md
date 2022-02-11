@@ -17,8 +17,7 @@ As we all know that in many places people go to bus operator office for bus tick
 
 | codacy | codiga |
 |:------:|:------:|
-| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c5a12606f2724bbbb82bba55d3340c0e)](https://www.codacy.com/gh/vikash2839/M1_BUS_RESERVATION_SYSTEM/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vikash2839/M1_BUS_RESERVATION_SYSTEM&amp;utm_campaign=Badge_Grade)        | https://api.codiga.io/project/30938/score/svg 
-https://api.codiga.io/project/30938/status/svg |
+| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c5a12606f2724bbbb82bba55d3340c0e)](https://www.codacy.com/gh/vikash2839/M1_BUS_RESERVATION_SYSTEM/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vikash2839/M1_BUS_RESERVATION_SYSTEM&amp;utm_campaign=Badge_Grade) | https://api.codiga.io/project/30938/score/svg |
 
 ## Code Quality - Codiga :-
 https://app.codiga.io/public/project/30938/M1_BUS_RESERVATION_SYSTEM/dashboard
