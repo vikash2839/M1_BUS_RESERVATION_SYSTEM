@@ -1,3 +1,17 @@
+/**
+ * @file reservation.c
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2022-02-19
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
+
+
+
 #include"reservation.h";
 
 
@@ -160,7 +174,7 @@ for(i=0; i<booking; i++)//for entering the person name and seat number in the fi
       scanf("%s",name[number-1]);
     printf("\n*******************************************************************************************************************\n\n");
     printf("\n");
-      itoa(number, tempstr, 10);
+      sprintf(number, tempstr, 10);
       fprintf(a,"%s ",name[number-1]);
       fprintf(b,"%s ",tempstr);
 
