@@ -1,18 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#include"reservation.c";
 
 
 
@@ -58,7 +44,7 @@ int main()
         helpline();//for helpline
         break;    
     }
-getch();
+getchar();
 
     }
     while(num != 6);
@@ -67,6 +53,6 @@ getch();
     printf("\t\t\t\t\t                           Thank You For Using                   \t\t\t\t\t\t\n");
     printf("\t*****************************************************************************************************************\n\n\n");
     printf("\t\t\t                                 SEE YOU AGAIN                                  ");
-    getch();
+    getchar();
     return 0;
 }

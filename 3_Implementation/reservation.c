@@ -1,7 +1,4 @@
-
-
-
-
+#include"reservation.h";
 
 
 
@@ -19,17 +16,6 @@ void status();//for printing the status by user input
 void status_1(int txt);//for printing the status while booking ticket
 void cancel();
 void helpline();
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -368,13 +354,13 @@ void login()
 	printf("*******************************************************************************************************************\n\n");
     printf("\n                                   LOGIN FORM                              ");
     printf(" \n                       ENTER USERNAME:-");
-	scanf("%s", &uname); 
+	scanf("%c", &uname); 
 	printf(" \n                       ENTER PASSWORD:-");
 	
 	
 	while(i<10)
 	{
-	    pword[i]=getch();
+	    pword[i]=getchar();
 	    c=pword[i];
 	    if(c==13) break;
 	    else printf("*");
@@ -389,7 +375,7 @@ void login()
 	printf("  \n\n\n       WELCOME TO OUR SYSTEM !!!!       \n\n");
 	printf("\n\n             LOGIN IS SUCCESSFUL !!!!       \n\n");
 	printf("\n\n\n\t\t\t\t     Press any key to continue...");
-	getch();// it holds the screen
+	getchar();// it holds the screen
 	break;
 	printf("*******************************************************************************************************************\n\n");
 	}
@@ -398,7 +384,7 @@ void login()
 		printf("\n        SORRY !!!!  LOGIN IS UNSUCESSFUL");
 		a++;
 		
-		getch();//it holds the screen
+		getchar();//it holds the screen
 		
 	}
 }
@@ -407,7 +393,7 @@ void login()
 	{
 		printf("\nSorry you have entered the wrong username and password for four times!!!");
 		
-		getch();
+		getchar();
 		
 		}
 		system("cls");	
