@@ -13,7 +13,8 @@
 
 As we all know that in many places people go to bus operator office for bus ticket as it cause inconvienece for people to travel operator office first for their bus tickets , then again go to bus boarding point instead of doing this people can get tickets from this application and directly goes to their seat.
 
-# Workflow
+# BADGES
+
 
 | codacy | codiga |
 |:------:|:------:|
