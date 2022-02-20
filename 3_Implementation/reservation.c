@@ -22,7 +22,6 @@ char number[32][2]={'\0'};
 int num1[32]={0};
 int txt;
 void bus();//for list of bus
-void name_number(int booking,char numstr[100]);
 void booking();//for booking the tickets
 int read_number(int txt);//for reading the number from the file
 void read_name(int txt);//for reading the name from the file
