@@ -1,7 +1,7 @@
 /**
  * @file reservation.c
- * @author your name (you@domain.com)
- * @brief 
+ * @author Kumar Vikash
+ * @brief reservation
  * @version 0.1
  * @date 2022-02-19
  * 
