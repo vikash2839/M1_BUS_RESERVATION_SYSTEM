@@ -3,7 +3,7 @@
 # Content
 
 * Introduction
-* workflow
+* Bandges
 * Folder structure
 * Aim
 * Scope
